@@ -15,5 +15,5 @@ jobs:
     - name: Compile firmware
       run: |
         chmod +x compile-with-docker.sh
-        ./compile-with-docker.sh
+        ./compile-with-docker.sh all
 
